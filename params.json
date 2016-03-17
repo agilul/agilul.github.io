@@ -1,7 +1,7 @@
 {
   "name": "Agilulfo",
   "tagline": "Personal projects",
-  "body": "### Audio Visualizer\r\n\r\nAn audio visualizer with FFT spectral analysis and custom shader rendering.\r\n\r\n### Love2D Demos\r\n\r\nFirst demo.\r\nSecond demo.\r\nThird demo.",
+  "body": "### Audio Visualizer\r\n\r\nAn audio visualizer with FFT spectral analysis and custom shader rendering.\r\n\r\n[Watch](https://www.youtube.com/watch?v=bYk8sEuPvlk) it or [browse](https://github.com/agilul/audio-visualization) the source code.\r\n\r\n### Love2D Demos\r\n\r\nRaycaster. [[Source](https://github.com/agilul/raycaster-maze-love2d)]\r\n\r\nSoftware renderer. [[Source](https://github.com/agilul/software-renderer-love2d)]\r\n\r\nSpace shooter. [[Source](https://github.com/agilul/spaceshooter-love2d)]",
   "google": "",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
