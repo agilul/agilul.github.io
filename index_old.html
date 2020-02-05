@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Agilulfo by agilul</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Agilulfo</h1>
+        <h2>Personal projects</h2>
+        <a href="https://github.com/agilul" class="button"><small>Follow me on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2>
+<a id="slot" class="anchor" href="#slot" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Slot</h2>
+
+<p><strong>NEW</strong>: <a href="http://agilul.github.io/slot-phaser/">Improved version</a> with <a href="http://phaser.io/">Phaser</a>.</p>
+
+<p>A simple slot machine HTML5 game. <a href="https://agilul.github.io/slotmachine/">Try it</a> in your browser.</p>
+
+<p><a href="https://github.com/agilul/slotmachine">Source code</a>.</p>
+
+<h2>
+<a id="audio-visualization" class="anchor" href="#audio-visualization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Audio Visualization</h2>
+
+<p><img src="images/audiovis.png" alt="Audio Visualization"></p>
+
+<p>An audio visualizer with FFT analysis and shader rendering.</p>
+
+<p>Written in C++ with <a href="http://www.sfml-dev.org/">SFML</a> and GLSL. The shader uses a ray marching algorithm to render geometric primitives.</p>
+
+<p>[<a href="https://github.com/agilul/audio-visualization">Source</a>, <a href="https://www.youtube.com/watch?v=bYk8sEuPvlk">YouTube</a>]</p>
+
+<h2>
+<a id="game-of-life" class="anchor" href="#game-of-life" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Game of Life</h2>
+
+<p><img src="images/life.png" alt="Game of Life"></p>
+
+<p>An implementation of Conway's Game of Life in OpenGL Shading Language.</p>
+
+<p>[<a href="https://github.com/agilul/game-of-life">Source</a>, <a href="https://www.shadertoy.com/view/XdtXRX">Shadertoy</a>]</p>
+
+<h2>
+<a id="jumper" class="anchor" href="#jumper" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Jumper</h2>
+
+<p><img src="images/jumper.png" alt="Jumper"></p>
+
+<p>A simple jumper game with powerups and enemies.</p>
+
+<p>Made with <a href="https://unity3d.com/">Unity3D</a>.</p>
+
+<p>[<a href="https://github.com/agilul/jumper-unity3d">Source</a>, <a href="images/jumper.gif">GIF</a>]</p>
+
+<h2>
+<a id="love2d-demos" class="anchor" href="#love2d-demos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Love2D Demos</h2>
+
+<p>All demos are written in Lua with <a href="https://love2d.org/">LÖVE</a> 0.10.1.</p>
+
+<h3>
+<a id="raycaster-in-a-maze" class="anchor" href="#raycaster-in-a-maze" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Raycaster in a maze</h3>
+
+<p><img src="images/raycaster.png" alt="Raycaster"></p>
+
+<p>A simulated 3D environment with raycasting in a 2D randomly generated maze.
+Using a fixed number of raycasts it determines the distance of walls from the player and draws them accordingly.</p>
+
+<p>The maze is generated with the recursive backtracking algorithm and then converted to a format suitable for the renderer.</p>
+
+<p>The raycaster subsystem is a partial port from <a href="http://www.playfuljs.com/a-first-person-engine-in-265-lines/">http://www.playfuljs.com/a-first-person-engine-in-265-lines/</a></p>
+
+<p>[<a href="https://github.com/agilul/raycaster-maze-love2d">Source</a>, <a href="images/raycaster.gif">GIF</a>]</p>
+
+<h3>
+<a id="software-renderer" class="anchor" href="#software-renderer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software Renderer</h3>
+
+<p><img src="images/renderer.png" alt="Renderer"></p>
+
+<p>A simple 3D renderer for a set of points using transformation matrices and perspective projection.
+It doesn't use OpenGL functions, instead it calculates through matrix operations the final positions of 3D vertices to a 2D scene.</p>
+
+<p>[<a href="https://github.com/agilul/software-renderer-love2d">Source</a>, <a href="images/renderer.gif">GIF</a>]</p>
+
+<h3>
+<a id="space-shooter" class="anchor" href="#space-shooter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Space Shooter</h3>
+
+<p><img src="images/spaceshooter.png" alt="Space Shooter"></p>
+
+<p>A top-down space shooter with physics and dynamic steering behaviours.
+It uses simple physics integration with movement governed by AI modifying linear and angular accelerations.</p>
+
+<p>Helper libraries in lib/ from <a href="http://hump.readthedocs.org/en/latest/">http://hump.readthedocs.org/en/latest/</a></p>
+
+<p>[<a href="https://github.com/agilul/spaceshooter-love2d">Source</a>, <a href="images/spaceshooter.gif">GIF</a>]</p>
+        </section>
+
+        <aside id="sidebar">
+
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
